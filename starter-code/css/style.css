@@ -6,6 +6,8 @@ input {
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
+  margin-left: 6px;
+  margin-right: 6px;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.42857143;
@@ -24,6 +26,12 @@ input {
   border-radius: 4px;
 }
 
+.btn-center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 .btn-success {
     color: #fff;
     background-color: #5cb85c;
@@ -39,3 +47,36 @@ input {
 .quantity {
   margin: 0 5px;
 }
+
+div.div-inline {
+  display:inline-block;
+  width:18%;
+}
+
+div.div-center {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+div.div-right {
+  float:right;
+  width: auto;
+  border: 1px solid blue; /* DEBUG ONLY */
+}
+
+div.wrapper {
+  width:98%;
+  min-height: 34px;
+  height:auto;
+  clear: all;
+  border: 1px solid red; /* DEBUG ONLY */
+}
+
+#storeName { color:red; }
+
+/* Next style is for DEBUG ONLY
+div {
+  border: 1px solid red;
+}
+ */
