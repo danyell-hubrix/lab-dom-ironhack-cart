@@ -1,4 +1,5 @@
-var IHProducts = [
+var IHProducts = [];
+
 /*  { name: 'Iron BubbleHead', price: 49.99 }
   , { name: 'Iron Shirt', price: 9.99 }
   , { name: 'Iron Cup', price: 6.99 }
@@ -6,7 +7,6 @@ var IHProducts = [
   , { name: 'Iron Sticker', price: 12.95 }
   , { name: 'Iron Axe', price: 12.95 }
   */
-];
 
 function deleteItem(e){
 
